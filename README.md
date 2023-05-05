@@ -31,3 +31,8 @@ CKA course attended in Anisa
 - **kubeproxy:**
 
 1. between pods/hosts network management
+
+
+### Container runtime engine
+
+`nerdctl` and `cri` are utilities to manage containerd
