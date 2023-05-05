@@ -46,3 +46,7 @@ CKA course attended in Anisa
 ### $HOME/.kube/config
 
 We can add multiple clusters' info on this file. and using `kubectx` or `kubeconf` switch between users/clusters.
+
+### CNI 
+works as net interfaces for containers.
+calico and flannel and ... work as the overlay network assigning IPs to those containers.
