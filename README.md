@@ -42,3 +42,7 @@ CKA course attended in Anisa
 ### /etc/kubernetes
 
 `*.conf` files contain the access info on different roles like admin, kubelet, etc.
+
+### $HOME/.kube/config
+
+We can add multiple clusters' info on this file. and using `kubectx` or `kubeconf` switch between users/clusters.
