@@ -4,7 +4,7 @@ CKA course attended in Anisa
 
 ### components
 
-- **kubelet: **
+- **kubelet:**
 
 1. interacts with the container runtime to deploy containers on the node.
 2. reports status of the node and the containers on that node to the API server.
