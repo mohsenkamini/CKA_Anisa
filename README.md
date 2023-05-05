@@ -38,3 +38,7 @@ CKA course attended in Anisa
 `nerdctl` and `cri` are utilities to manage containerd
 
 `runc` creates namespaces and cgroups
+
+### /etc/kubernetes
+
+`*.conf` files contain the access info on different roles like admin, kubelet, etc.
