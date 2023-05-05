@@ -36,3 +36,5 @@ CKA course attended in Anisa
 ### Container runtime engine
 
 `nerdctl` and `cri` are utilities to manage containerd
+
+`runc` creates namespaces and cgroups
