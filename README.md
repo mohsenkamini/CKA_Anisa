@@ -2,7 +2,10 @@
 CKA course attended in Anisa
 
 
-### components
+### Components
+
+![image](https://user-images.githubusercontent.com/77579794/236401310-f46b692e-2039-4fb4-acb2-bc68ed960ba1.png)
+
 
 - **kubelet:**
 
