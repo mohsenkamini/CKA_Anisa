@@ -79,3 +79,14 @@ kubectl label node worker1 kubernetes.io/role=worker1
 nerdctl -n k8s.io ps
 nerdctl -n k8s.io images
 ~~~
+
+### PODs
+
+can have multiple containers in it(helper container):
+
+Helper containers can be used to perform a wide range of tasks, such as:
+
+1. Preparing the environment for the main container(s) by downloading configuration files, secrets, and other data.
+2. Managing the lifecycle of the main container(s) by monitoring their health and restarting them if necessary.
+3. Collecting and sending logs, metrics, and other data to external systems.
+4. Running tools and utilities for debugging, profiling, or testing the main container(s).
