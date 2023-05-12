@@ -11,6 +11,7 @@ CKA course attended in Anisa
 
 1. interacts with the container runtime to deploy containers on the node.
 2. reports status of the node and the containers on that node to the API server.
+3. register nodes on the cluster
 
 - ** Controller manager:**
 
