@@ -37,6 +37,7 @@ CKA course attended in Anisa
 - **kubeproxy:**
 
 1. between pods/hosts network management
+2. creates service endpoints
 
 
 ### Container runtime engine
