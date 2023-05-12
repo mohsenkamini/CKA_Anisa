@@ -58,4 +58,5 @@ kubectl get node
 kubectl get pod --namespace kube-system -o wide
 kubectl get node --kubeconfig
 kubeadm token list
+kubeadm token create --print-join-command --ttl=12h
 ~~~
