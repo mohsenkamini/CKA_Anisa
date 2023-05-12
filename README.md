@@ -64,3 +64,10 @@ kubeadm token list
 kubeadm token create --print-join-command --ttl=12h
 kubectl label node worker1 kubernetes.io/role=worker1
 ~~~
+
+
+### nerdctl 
+
+~~~
+nerdctl -n k8s.io ps
+~~~
