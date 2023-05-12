@@ -24,6 +24,9 @@ CKA course attended in Anisa
 
 1. Key-value DB that contains cluster/applications info.
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/c5a3c575-a347-4191-93fb-1b4933f449bd)
+
+
 - **kube-scheduler: **
 
 1. schedules containers/pods on the nodes.
