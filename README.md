@@ -26,6 +26,8 @@ CKA course attended in Anisa
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/c5a3c575-a347-4191-93fb-1b4933f449bd)
 
+‍‍‍`/etc/kubernetes/manifests/etcd.yml`
+
 
 - **kube-scheduler: **
 
