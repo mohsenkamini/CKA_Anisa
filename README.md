@@ -70,4 +70,5 @@ kubectl label node worker1 kubernetes.io/role=worker1
 
 ~~~
 nerdctl -n k8s.io ps
+nerdctl -n k8s.io images
 ~~~
