@@ -13,7 +13,7 @@ CKA course attended in Anisa
 2. reports status of the node and the containers on that node to the API server.
 3. register nodes on the cluster
 
-- ** Controller manager:**
+- **Controller manager:**
 
 1. monitors the nodes and containers
 
@@ -30,7 +30,7 @@ CKA course attended in Anisa
 ‍‍‍`/etc/kubernetes/manifests/etcd.yml`
 
 
-- **kube-scheduler: **
+- **kube-scheduler:**
 
 1. schedules containers/pods on the nodes.
 
