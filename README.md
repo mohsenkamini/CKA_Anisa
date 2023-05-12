@@ -55,7 +55,7 @@ calico and flannel and ... work as the overlay network assigning IPs to those co
 
 ~~~
 kubectl get node
-kubectl get pod --namespace kubesystem
+kubectl get pod --namespace kube-system -o wide
 kubectl get node --kubeconfig
 kubeadm token list
 ~~~
