@@ -72,6 +72,10 @@ kubeadm token create --print-join-command --ttl=12h
 kubectl label node worker1 kubernetes.io/role=worker1
 ~~~
 
+~~~
+kubectl run nginx_name --image nginx:latest
+~~~
+
 
 ### nerdctl 
 
