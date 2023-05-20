@@ -103,5 +103,5 @@ Tshoot:
 ~~~
 curl -L https://github.com/projectcalico/calico/releases/latest/download/calicoctl-linux-amd64 -o /usr/bin/calicoctl
 chmod +x /usr/bin/calicoctl
-./calicoctl node status
+calicoctl node status
 ~~~
