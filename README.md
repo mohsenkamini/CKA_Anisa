@@ -96,6 +96,10 @@ Helper containers can be used to perform a wide range of tasks, such as:
 3. Collecting and sending logs, metrics, and other data to external systems.
 4. Running tools and utilities for debugging, profiling, or testing the main container(s).
 
+~~~
+kubectl  -n calico-system edit pod  calico-node-rrpxr
+~~~
+
 
 ### calico
 
