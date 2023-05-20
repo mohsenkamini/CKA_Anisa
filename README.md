@@ -101,7 +101,7 @@ Helper containers can be used to perform a wide range of tasks, such as:
 
 Tshoot:
 ~~~
-curl -L https://github.com/projectcalico/calico/releases/latest/download/calicoctl-linux-amd64 -o calicoctl
-chmod +x ./calicoctl
+curl -L https://github.com/projectcalico/calico/releases/latest/download/calicoctl-linux-amd64 -o /usr/bin/calicoctl
+chmod +x /usr/bin/calicoctl
 ./calicoctl node status
 ~~~
