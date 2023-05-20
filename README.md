@@ -95,3 +95,12 @@ Helper containers can be used to perform a wide range of tasks, such as:
 2. Managing the lifecycle of the main container(s) by monitoring their health and restarting them if necessary.
 3. Collecting and sending logs, metrics, and other data to external systems.
 4. Running tools and utilities for debugging, profiling, or testing the main container(s).
+
+
+### calico
+
+Tshoot:
+~~~
+curl -L https://github.com/projectcalico/calico/releases/latest/download/calicoctl-linux-amd64 -o calicoctl
+chmod +x ./calicoctl
+~~~
