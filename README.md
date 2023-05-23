@@ -117,6 +117,9 @@ core group is the default and does not need to be mentioned in yaml.
 
 https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#pod-v1-core
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ce69cf14-3656-41aa-9509-f6fed9424b21)
+
+these are the four necessary keys for pods:
+
 ~~~
 apiVersion: v1
 kind: Pod
