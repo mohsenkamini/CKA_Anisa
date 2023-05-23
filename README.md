@@ -129,6 +129,9 @@ pod itself does not have control over its state, e.g if the node fails pod won't
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f16c0102-6380-437d-8db5-ef1fbebe9aa0)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/c2f43f23-8e52-4913-bc3a-c45367584114)
 
+~~~
+kubectl get replicaset
+~~~
 
 ### deployment
 
