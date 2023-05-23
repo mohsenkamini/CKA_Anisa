@@ -126,7 +126,7 @@ these are the four necessary keys for pods:
 
 ~~~
 apiVersion: v1
-kind: Pod
+kind: Pod   # always starts with capital letter
 metadata:   # name of the pod, namespace, labels etc
   name: myapp-pod
   labels:
