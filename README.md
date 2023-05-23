@@ -127,4 +127,7 @@ metadata:   # name of the pod, namespace, labels etc
     type: front-end
 
 spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest # default pulls out of dockerhub
 ~~~
