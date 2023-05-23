@@ -84,6 +84,19 @@ kubectl run nginx_name --image nginx:latest
 
 ### nerdctl 
 
+install:
+~~~
+NERDCTL_VERSION=1.0.0 # see https://github.com/containerd/nerdctl/releases for the latest release
+archType="amd64"
+if test "$(uname -m)" = "aarch64"; then     archType="arm64"; fi
+wget "https://github.com/containerd/nerdctl/releases/download/v${NERDCTL_VERSION}/nerdctl-full-${NERDCTL_VERSION}-linux-${archType}.tar.gz" -O /tmp/nerdctl.tar.gz
+mkdir -p ~/.local/bin
+tar -C ~/.local/bin/ -xzf /tmp/nerdctl.tar.gz --strip-components 1 bin/nerdctl
+echo -e '\nexport PATH="${PATH}:~/.local/bin"' >> ~/.bashrc
+export PATH="${PATH}:~/.local/bin"
+nerdctl
+~~~
+
 ~~~
 nerdctl -n k8s.io ps
 nerdctl -n k8s.io images
