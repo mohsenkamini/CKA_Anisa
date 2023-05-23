@@ -121,6 +121,10 @@ kubectl  -n calico-system edit pod  calico-node-rrpxr
 ~~~
 ### replicaset
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/e9a53699-4edc-4ef7-a131-fdeb71435887)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f16c0102-6380-437d-8db5-ef1fbebe9aa0)
+
+
 ### deployment
 
 ### statefulset
