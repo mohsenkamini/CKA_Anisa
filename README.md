@@ -13,6 +13,10 @@ CKA course attended in Anisa
 2. reports status of the node and the containers on that node to the API server.
 3. register nodes on the cluster
 
+~~~
+systemctl restart kubelet
+~~~
+
 - **Controller manager:**
 
 1. monitors the nodes and containers
