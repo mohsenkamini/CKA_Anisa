@@ -118,5 +118,13 @@ core group is the default and does not need to be mentioned in yaml.
 https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#pod-v1-core
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ce69cf14-3656-41aa-9509-f6fed9424b21)
 ~~~
-apiVersion:       # 
+apiVersion: v1
+kind: Pod
+metadata:   # name of the pod, namespace, labels etc
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: front-end
+
+spec:
 ~~~
