@@ -109,3 +109,11 @@ curl -L https://github.com/projectcalico/calico/releases/latest/download/calicoc
 chmod +x /usr/bin/calicoctl
 calicoctl node status
 ~~~
+
+### create a pod using yaml file
+how to get apiVersion(differs for each object/manifest (pod, etc)): 
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#pod-v1-core
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ce69cf14-3656-41aa-9509-f6fed9424b21)
+~~~
+apiVersion:       # 
+~~~
