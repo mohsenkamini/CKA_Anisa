@@ -123,7 +123,7 @@ kubectl  -n calico-system edit pod  calico-node-rrpxr
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/e9a53699-4edc-4ef7-a131-fdeb71435887)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f16c0102-6380-437d-8db5-ef1fbebe9aa0)
-![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/250548e8-9679-401f-9d6f-189505ea8cbe)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/c2f43f23-8e52-4913-bc3a-c45367584114)
 
 
 ### deployment
