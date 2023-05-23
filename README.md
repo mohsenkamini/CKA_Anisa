@@ -119,6 +119,18 @@ Helper containers can be used to perform a wide range of tasks, such as:
 ~~~
 kubectl  -n calico-system edit pod  calico-node-rrpxr
 ~~~
+### replicaset
+
+### deployment
+
+### statefulset
+
+### job
+
+### cronjob
+
+### daemonset
+
 
 
 ### calico
@@ -154,3 +166,5 @@ spec:
     - name: nginx-container
       image: nginx:latest # default pulls out of dockerhub
 ~~~
+
+
