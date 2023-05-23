@@ -119,6 +119,10 @@ Helper containers can be used to perform a wide range of tasks, such as:
 ~~~
 kubectl  -n calico-system edit pod  calico-node-rrpxr
 ~~~
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/6251d15e-7716-4df6-bd1d-c688bf578b7f)
+pod itself does not have control over its state, e.g if the node fails pod won't be relocated.
+
 ### replicaset
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/e9a53699-4edc-4ef7-a131-fdeb71435887)
