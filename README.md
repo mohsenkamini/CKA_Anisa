@@ -100,6 +100,7 @@ nerdctl
 ~~~
 nerdctl -n k8s.io ps
 nerdctl -n k8s.io images
+nerdctl -n k8s.io kill 84a0b9e88743
 ~~~
 
 ### PODs
