@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+  namespace: dev
+  labels:
+    app: nginx
+    deploy: anisa
+spec:
+  template:
+    metadata:
+      name: myapp-pod-nginx
+      labels:
+        app: nginx
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container-rep
+          image: nginx:1.21
+          resources:
+            requests:
+              cpu: "1m"
+              memory: "10M"
+            limits:
+              cpu: "10m"
+              memory: "100M"
+  replicas: 3
+  selector:                     # only contain these pods in replicaset
+    matchLabels:
+      type: front-end

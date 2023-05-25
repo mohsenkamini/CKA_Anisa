@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myapp-rc
+  labels:
+    app: nginx
+    deploy: anisa
+spec:
+  template:
+    metadata:
+      name: myapp-pod-nginx
+      labels:
+        app: nginx
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container-rep
+          image: nginx:1.21
+  replicas: 3
+  selector:                     # only contain these pods in replicaset
+    matchLabels:
+      type: front-end

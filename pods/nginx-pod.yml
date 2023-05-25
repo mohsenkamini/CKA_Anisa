@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:   # name of the pod, namespace, labels etc
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: front-end
+
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:1.21 # default pulls out of dockerhub
