@@ -132,6 +132,8 @@ pod itself does not have control over its state, e.g if the node fails pod won't
 ~~~
 kubectl get replicaset
 kubectl get rs -o wide
+kubectl replace -f rs-definition.yml
+kubectl scale --replicas=3 -f rs-definition.yml
 ~~~
 #### selector
 if we already have a pod with lable type: front-end that pod will be a part of this rs.
