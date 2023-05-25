@@ -134,6 +134,7 @@ kubectl get replicaset
 kubectl get rs -o wide
 kubectl replace -f rs-definition.yml
 kubectl scale --replicas=3 -f rs-definition.yml
+kubectl apply -f rs-definition.yml # no need of a kubectl replace later, do apply again
 ~~~
 #### selector
 if we already have a pod with lable type: front-end that pod will be a part of this rs.
