@@ -154,6 +154,11 @@ kubectl create ns dev
 ~~~
 the kube-public namespace exposes its pods to everyone.
 
+- change default ns:
+~~~
+kubectl config set-context kubernetes-admin@kubernetes --namespace dev
+~~~
+
 ### ResourceQuota
 set requested/limits to resources/object(pods/deployments,etc) for a namespace,lable or etc...
 
