@@ -81,6 +81,7 @@ kubectl get events
 ~~~
 kubectl run nginx_name --image nginx:latest
 kubectl get pod -o yaml
+kubectl explain deployments.kind
 ~~~
 
 
