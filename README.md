@@ -154,6 +154,12 @@ kubectl create ns dev
 ~~~
 the kube-public namespace exposes its pods to everyone.
 
+### ResourceQuota
+set requested/limits to resources for a namespace,lable or etc...
+
+### Services
+
+
 ### statefulset
 
 ### job
