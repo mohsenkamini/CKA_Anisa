@@ -145,6 +145,11 @@ rolling update/roll back options.
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/b1dcacc9-9566-4931-b4fc-62892491404d)
 
+### namespace
+
+~~~
+kubectl create ns dev
+~~~
 
 ### statefulset
 
