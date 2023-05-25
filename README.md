@@ -140,7 +140,8 @@ kubectl apply -f rs-definition.yml # no need of a kubectl replace later, do appl
 if we already have a pod with lable type: front-end that pod will be a part of this rs.
 
 ### deployment
-rolling update/roll back options are available.
+A ReplicaSet ensures that a specified number of pod replicas are running at any given time. However, a Deployment is a higher-level concept that manages ReplicaSets and provides declarative updates to Pods along with a lot of other useful features like
+rolling update/roll back options.
 
 
 ### statefulset
