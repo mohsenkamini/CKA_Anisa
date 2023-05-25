@@ -149,10 +149,10 @@ rolling update/roll back options.
 ### namespace
 only pods on the same ns see each other by default.
 we can define resource limitations and accesses using ns.
-
 ~~~
 kubectl create ns dev
 ~~~
+the kube-public namespace exposes its pods to everyone.
 
 ### statefulset
 
