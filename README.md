@@ -162,6 +162,10 @@ kubectl config set-context kubernetes-admin@kubernetes --namespace dev
 ### ResourceQuota
 set requested/limits to resources/object(pods/deployments,etc) for a namespace,lable or etc...
 
+~~~
+kubectl get resourcequotas
+~~~
+
 ### Services
 
 
