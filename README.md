@@ -143,6 +143,8 @@ if we already have a pod with lable type: front-end that pod will be a part of t
 A ReplicaSet ensures that a specified number of pod replicas are running at any given time. However, a Deployment is a higher-level concept that manages ReplicaSets and provides declarative updates to Pods along with a lot of other useful features like
 rolling update/roll back options.
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/b1dcacc9-9566-4931-b4fc-62892491404d)
+
 
 ### statefulset
 
