@@ -140,6 +140,8 @@ kubectl apply -f rs-definition.yml # no need of a kubectl replace later, do appl
 if we already have a pod with lable type: front-end that pod will be a part of this rs.
 
 ### deployment
+rolling update/roll back options are available.
+
 
 ### statefulset
 
