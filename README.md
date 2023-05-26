@@ -170,7 +170,15 @@ kubectl get resourcequotas
 expose pods to outside/other pods within the cluster.
 load balance traffic to pods.
 
-a node port service: 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/75950a77-f430-4236-9325-c9b52a19314d)
+
+node port: only exposes on the host and the endpoint is host's ip.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1fbf3f43-584c-4341-b45c-639b01c72d54)
+
+clusterIP: exposes pod in cluster only.
+
+LoadBalancer: 
+
 
 
 ### statefulset
