@@ -204,6 +204,13 @@ label & selectors can be used to do this.
 
 if any pod can tolerate blue taint will be deployed on that node. other than that no node will be deployed on that node.
 
+types of taints:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/051851c6-9ad0-490e-b725-053a0ee3ae38)
+
+~~~
+kubectl taint nodes <node-name> app=blue:NoSchedule
+~~~
+
 ### statefulset
 
 ### job
