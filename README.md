@@ -176,7 +176,10 @@ node port: only exposes on the host and the endpoint is each host's ip.
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1fbf3f43-584c-4341-b45c-639b01c72d54)
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f71fe450-4df6-400b-995b-c114b9925d23)
-
+~~~
+kubectl get ep  nginx-service -o wide
+kubectl get svc nginx-service -o wide
+~~~
 
 clusterIP: exposes pod in cluster only.
 
