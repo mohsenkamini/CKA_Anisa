@@ -210,6 +210,9 @@ types of taints:
 ~~~
 kubectl taint nodes <node-name> app=blue:NoSchedule
 ~~~
+toleration configuration:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/b18b28ea-ffea-4114-baa9-2418f47e58b3)
+
 
 ### statefulset
 
