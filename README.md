@@ -179,6 +179,7 @@ node port: only exposes on the host and the endpoint is each host's ip.
 ~~~
 kubectl get ep  nginx-service -o wide
 kubectl get svc nginx-service -o wide
+iptables-save | grep 10.104.199.182 # svc ip
 ~~~
 
 clusterIP: exposes pod in cluster only.
