@@ -167,6 +167,10 @@ kubectl get resourcequotas
 ~~~
 
 ### Services
+expose pods to outside/other pods within the cluster.
+load balance traffic to pods.
+
+a node port service: 
 
 
 ### statefulset
