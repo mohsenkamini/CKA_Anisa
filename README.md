@@ -190,6 +190,10 @@ curl <svc-name>.<ns-name>.svc.cluster.local
 
 LoadBalancer: 
 
+### scheduling
+manual through pod definition:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2896f50b-9841-48e0-87b2-23fa07c6c4a8)
+
 
 
 ### statefulset
