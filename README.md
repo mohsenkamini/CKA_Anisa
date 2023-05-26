@@ -183,6 +183,10 @@ iptables-save | grep 10.104.199.182 # svc ip
 ~~~
 
 clusterIP: exposes pod in cluster only.
+access pods between two namespaces:
+~~~
+curl <svc-name>.<ns-name>.svc.cluster.local
+~~~
 
 LoadBalancer: 
 
