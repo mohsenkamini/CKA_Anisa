@@ -194,7 +194,15 @@ LoadBalancer:
 manual through pod definition:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2896f50b-9841-48e0-87b2-23fa07c6c4a8)
 
+label & selectors can be used to do this.
 
+#### annotations
+
+### taints and tolerations
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ce12efb9-7637-4533-a03a-f09f34f7dfd5)
+
+if any pod can tolerate blue taint will be deployed on that node. other than that no node will be deployed on that node.
 
 ### statefulset
 
