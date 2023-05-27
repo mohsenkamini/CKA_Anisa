@@ -1,6 +1,7 @@
 # CKA_Anisa
 CKA course attended in Anisa
 
+to initiate a cluster check out [this repo](https://github.com/mohsenkamini/Getting-started-w-Kubernetes).
 
 ### Components
 
