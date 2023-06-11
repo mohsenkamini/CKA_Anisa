@@ -257,6 +257,9 @@ The initial pods like etcd come up before the apiServer, so some pods get initia
 
 **kubelet is always watching the pod manifest directory to understand what pods to run.**
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f083387d-6f30-4384-965f-1a1221286982)
+
+
 ### statefulset
 
 ### job
