@@ -14,6 +14,21 @@ spec:
         app: nginx
         type: front-end
     spec:
+      tolerations:
+        - key: "app"
+          operator: "Equal"
+          value: "nginx"
+          effect: "NoSchedule"
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: "size"
+                operator: "In"
+                values:
+                   - "Large"
+                   - "small"
       containers:
         - name: nginx-container-rep
           image: nginx:1.21
@@ -22,9 +37,9 @@ spec:
               cpu: "1m"
               memory: "10M"
             limits:
-              cpu: "10m"
+              cpu: "5m"
               memory: "100M"
-  replicas: 3
+  replicas: 20
   selector:                     # only contain these pods in replicaset
     matchLabels:
       type: front-end
