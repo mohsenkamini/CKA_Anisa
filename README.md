@@ -280,6 +280,12 @@ install: https://github.com/kubernetes-sigs/metrics-server
 ~~~
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ~~~
+this fails as it doesn't trust our cluster CA. so :
+~~~
+kubectl edit pod metrics-server-55c774cdbb-mtmpz -n kube-system
+## add the ca or disable ca verification
+~~~
+
 
 usage : 
 ~~~
