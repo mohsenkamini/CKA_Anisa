@@ -268,6 +268,24 @@ you can define your own scheduler like do not schedule a new pod when 80% of res
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/c4792b17-205d-4cad-ac82-a2b8755dfea3)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1b67d8d2-b6fd-45b2-85b6-a0ce5640c97e)
 
+### Monitoring
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/48477b80-c07b-4c42-9ab2-bb7fb7eaf7ab)
+
+##### metrics server
+there's a cadvisor inside the kubelet that metrics server connect to get the metrics.
+
+metrics server data is in memory and does not get stored.
+
+install: https://github.com/kubernetes-sigs/metrics-server
+~~~
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+~~~
+
+usage : 
+~~~
+kubectl top
+~~~
+
 ### statefulset
 
 ### job
@@ -310,5 +328,6 @@ spec:
     - name: nginx-container
       image: nginx:latest # default pulls out of dockerhub
 ~~~
+
 
 
