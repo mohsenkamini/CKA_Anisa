@@ -239,6 +239,17 @@ define more detailed conditions/predictions than node selector.
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/cf599bde-f1b0-46b7-a456-81db36a30705)
 
 
+### Resource limit exceeding
+
+CPU: K8s throttles(in queues) the cpu for the pod
+Memory: K8s terminate the pod (OOM(Out of Memory) killed)
+ 
+### Daemonset
+just like the swarm service on global mode. 1 container/pod on each node.
+kube-proxy is deployed in this way.
+~~~
+kubectl -n kube-system get ds
+~~~
 
 ### statefulset
 
@@ -246,7 +257,6 @@ define more detailed conditions/predictions than node selector.
 
 ### cronjob
 
-### daemonset
 
 
 
