@@ -261,6 +261,11 @@ The initial pods like etcd come up before the apiServer, so some pods get initia
  
  the trail the node their on's name.
 
+### Multiple schedulers
+you can define your own scheduler like do not schedule a new pod when 80% of resource allocation.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/51af2277-02ba-4994-9f1d-dabf8f8c7429)
+
+
 ### statefulset
 
 ### job
