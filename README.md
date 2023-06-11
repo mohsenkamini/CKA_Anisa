@@ -253,7 +253,9 @@ kubectl -n kube-system get ds
 
 ### StaticPod
 The initial pods like etcd come up before the apiServer, so some pods get initialized by kubelet directly and not handled by the apiServer.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/9abcf12a-3bd3-4690-93e4-cc11c6b90390)
 
+**kubelet is always watching the pod manifest directory to understand what pods to run.**
 
 ### statefulset
 
