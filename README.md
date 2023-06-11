@@ -251,6 +251,10 @@ kube-proxy is deployed in this way.
 kubectl -n kube-system get ds
 ~~~
 
+### StaticPod
+The initial pods like etcd come up before the apiServer, so some pods get initialized by kubelet directly and not handled by the apiServer.
+
+
 ### statefulset
 
 ### job
