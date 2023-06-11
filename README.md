@@ -220,6 +220,15 @@ kubectl taint node worker01 app=nginx:NoSchedule-
 ~~~
 
 
+### Node selector
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/68aedeaf-ba12-474d-91e6-5eadd80a1e04)
+
+~~~
+kubectl label nodes worker01 size=Large
+
+~~~
+
 ### statefulset
 
 ### job
