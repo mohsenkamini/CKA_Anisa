@@ -289,7 +289,7 @@ kubectl edit deployments.apps -n kube-system metrics-server
 
 usage : 
 ~~~
-kubectl top
+kubectl top node/top
 ~~~
 
 ### statefulset
