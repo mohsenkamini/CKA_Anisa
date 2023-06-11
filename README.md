@@ -265,6 +265,8 @@ The initial pods like etcd come up before the apiServer, so some pods get initia
 you can define your own scheduler like do not schedule a new pod when 80% of resource allocation.
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/51af2277-02ba-4994-9f1d-dabf8f8c7429)
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/c4792b17-205d-4cad-ac82-a2b8755dfea3)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1b67d8d2-b6fd-45b2-85b6-a0ce5640c97e)
 
 ### statefulset
 
