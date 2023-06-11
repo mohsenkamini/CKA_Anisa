@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: myapp-ds
+  labels:
+    app: nginx
+    deploy: ds
+spec:
+  template:
+    metadata:
+      name: myapp-ds-nginx
+      namespace: dev
+      labels:
+        app: nginx-ds
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container-rep
+          image: nginx:1.21
+  selector:                     # only contain these pods in replicaset
+    matchLabels:
+      app: nginx-ds
