@@ -282,7 +282,7 @@ kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/late
 ~~~
 this fails as it doesn't trust our cluster CA. so :
 ~~~
-kubectl edit pod metrics-server-55c774cdbb-mtmpz -n kube-system
+kubectl edit deployments.apps -n kube-system metrics-server
 ## add the ca or disable ca verification
 ~~~
 
