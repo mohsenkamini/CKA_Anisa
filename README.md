@@ -243,7 +243,7 @@ define more detailed conditions/predictions than node selector.
 
 CPU: K8s throttles(in queues) the cpu for the pod
 Memory: K8s terminate the pod (OOM(Out of Memory) killed)
-
+ 
 
 ### statefulset
 
