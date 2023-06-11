@@ -229,6 +229,17 @@ kubectl label nodes worker01 size=Large
 
 ~~~
 
+### Node Affinity
+Affinity meaning:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ee7fa937-9ec1-4d8a-9599-52ac36dc608d)
+
+
+define more detailed conditions/predictions than node selector.
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/cf599bde-f1b0-46b7-a456-81db36a30705)
+
+
+
 ### statefulset
 
 ### job
