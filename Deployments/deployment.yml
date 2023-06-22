@@ -9,6 +9,8 @@ metadata:
 spec:
   template:
     metadata:
+      annotations:
+        kubernetes.io/change-cause: "nginx:1.20"
       name: myapp-pod-nginx
       labels:
         app: nginx
@@ -31,7 +33,7 @@ spec:
                    - "small"
       containers:
         - name: nginx-container-rep
-          image: nginx:1.21
+          image: nginx:1.20
           resources:
             requests:
               cpu: "1m"
