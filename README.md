@@ -147,6 +147,23 @@ rolling update/roll back options.
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/b1dcacc9-9566-4931-b4fc-62892491404d)
 
+#### rolling/rollback updates (rollouts)
+
+~~~
+kubectl rollout status deployment/dp-name
+
+kubectl rollout history deployment/dp-name
+
+kubectl set image # better not use it unless testing
+~~~
+the new versions are deployed in a new replicaset:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/95d9b33e-53e9-452b-a061-c9f23e715b64)
+
+~~~
+kubectl rollout undo deployment/dp-name # rollbacks to the previous version
+~~~
+
+
 ### namespace
 only pods on the same ns see each other by default.
 we can define resource limitations and accesses using ns.
