@@ -1,4 +1,4 @@
-# CKA_Anisa
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/8ebf1fa4-ae6b-4cb0-bbbf-51c67cf0397c)# CKA_Anisa
 CKA course attended in Anisa
 
 to initiate a cluster check out [this repo](https://github.com/mohsenkamini/Getting-started-w-Kubernetes).
@@ -320,6 +320,18 @@ kubectl get events  # logs generated in a cluster view
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/69d5c8d1-3b3c-41de-b9a5-421af7e64aff)
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/82fe5727-7cc4-463a-944c-e1cdd1925c92)
+
+#### configMap
+ ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f8da280a-4d0e-4583-a138-7b83f49732cc)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1ae89f7f-a6cd-4487-8221-c3933cade130)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/0836f2e4-dcae-4c8c-bbda-99b40122c4ca)
+
+#### secrets
+values should be in base64:
+~~~
+echo -n "value" | base64
+~~~
 
 ### statefulset
 
