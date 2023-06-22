@@ -160,7 +160,7 @@ the new versions are deployed in a new replicaset:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/95d9b33e-53e9-452b-a061-c9f23e715b64)
 
 ~~~
-kubectl rollout undo deployment/dp-name # rollbacks to the previous version
+kubectl rollout undo deployment/dp-name # rollbacks to the previous version # we can use --to-revision
 ~~~
 
 
