@@ -9,9 +9,13 @@ spec:
   containers:
     - name: alpine-container
       image: alpine # default pulls out of dockerhub
+      envFrom:
+        - configMapRef:
+            name: alpine-config
       command: 
         - sh 
         - -c
         - |
           ls /etc/
+          echo $mohsen $ali
           sleep infinity
