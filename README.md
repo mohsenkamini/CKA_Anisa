@@ -327,6 +327,11 @@ kubectl get events  # logs generated in a cluster view
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1ae89f7f-a6cd-4487-8221-c3933cade130)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/0836f2e4-dcae-4c8c-bbda-99b40122c4ca)
 
+#### use volumes
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/65ef4162-bc42-4f0e-b747-40384efa3f3d)
+used this conf in `multi-container-pod.yml`
+
 #### secrets
 values should be in base64:
 ~~~
