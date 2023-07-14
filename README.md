@@ -355,6 +355,11 @@ access one specific container:
 root@manager1:~/CKA_Anisa/pods# kubectl exec -it multi-alp-pod -c alpine-container-2 -- sh
 ~~~
 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/d70ea9ac-2f94-4cd6-a0b0-7cd3cba068d5)
+
+three design patterns and use cases of this:
+https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns/
+
 ### statefulset
 
 ### job
