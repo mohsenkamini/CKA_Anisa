@@ -6,9 +6,16 @@ metadata:   # name of the pod, namespace, labels etc
     app: myapp
 
 spec:
+  volumes:
+    - name: config
+      configMap:
+        name: alpine-config
   containers:
     - name: alpine-container-1
       image: alpine # default pulls out of dockerhub
+      volumeMounts:
+        - name: config
+          mountPath: /mnt/config
       envFrom:
         - configMapRef:
             name: alpine-config
