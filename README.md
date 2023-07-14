@@ -333,6 +333,23 @@ values should be in base64:
 echo -n "value" | base64
 ~~~
 
+### multi-container pod
+they share the same network namespace(bridged).
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f98e6fcf-f1bb-4c76-b105-df3810f381a9)
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/5e807696-fc0c-49ea-8559-19a250541b40)
+
+~~~
+kubectl exec -it multi-alp-pod -- sh
+Defaulted container "alpine-container-1" out of: alpine-container-1, alpine-container-2
+/ # 
+~~~
+access one specific container:
+~~~
+root@manager1:~/CKA_Anisa/pods# kubectl exec -it multi-alp-pod -c alpine-container-2 -- sh
+~~~
+
 ### statefulset
 
 ### job
