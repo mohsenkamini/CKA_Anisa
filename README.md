@@ -362,6 +362,7 @@ https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns/
 
 #### init containers
 run before the main container comes up.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/45219579-c521-4e90-b6b8-956515d5432a)
 
 ### statefulset
 
