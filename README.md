@@ -360,6 +360,9 @@ root@manager1:~/CKA_Anisa/pods# kubectl exec -it multi-alp-pod -c alpine-contain
 three design patterns and use cases of this:
 https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns/
 
+#### init containers
+run before the main container comes up.
+
 ### statefulset
 
 ### job
