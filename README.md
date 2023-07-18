@@ -380,6 +380,11 @@ kubectl logs multi-alp-pod --follow --container init-alpine
 
 #### System Upgrade
 
+> MUST DO:
+~~~
+apt-mark hold kubelet kubeadm kubectl
+~~~
+
 drain nodes:
 ~~~
 kubectl drain <node>
