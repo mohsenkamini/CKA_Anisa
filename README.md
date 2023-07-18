@@ -374,6 +374,7 @@ kubectl logs multi-alp-pod --follow --container init-alpine
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1d8f1ea1-643b-4781-a5c4-6889203718bf)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1b2c6376-1e09-494a-8638-3cafaa75d7e7)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/250bb1fa-aaf5-4f56-a817-ebae1766ff3d)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/17004a05-7fc7-4a77-8994-a8fd9ee90d56)
 
 
 ### statefulset
