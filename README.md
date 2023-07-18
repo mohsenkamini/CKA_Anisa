@@ -378,7 +378,20 @@ kubectl logs multi-alp-pod --follow --container init-alpine
 
 ### Cluster Maintenance
 
-#### OS Upgrade
+#### System Upgrade
+
+drain nodes:
+~~~
+kubectl drain <node>
+~~~
+keep existing pods on the node and labels the node unschedulable.
+~~~
+kubectl cordon <node>
+~~~
+to reverse both `cordon` and `drain`:
+~~~
+kubectl uncordon <node>
+~~~
 
 #### Cluster Upgrade
 
