@@ -378,6 +378,12 @@ kubectl logs multi-alp-pod --follow --container init-alpine
 
 ### Cluster Maintenance
 
+#### OS Upgrade
+
+#### Cluster Upgrade
+
+#### Backup & Restore
+
 ### statefulset
 
 ### job
