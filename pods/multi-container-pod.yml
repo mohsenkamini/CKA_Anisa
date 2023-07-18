@@ -10,6 +10,10 @@ spec:
     - name: config
       configMap:
         name: alpine-config
+  initContainers:
+    - name: init-alpine
+      image: nginx:1.21
+      command: ['sh','-c','echo some && sleep 5 && exit 1']
   containers:
     - name: alpine-container-1
       image: alpine # default pulls out of dockerhub

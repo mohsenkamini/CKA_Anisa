@@ -1,12 +1,21 @@
 apiVersion: v1
 kind: Pod
 metadata:   # name of the pod, namespace, labels etc
-  name: myapp-pod
+  name: myapp-pod-liveness
   labels:
     app: myapp
     type: front-end
 
 spec:
+
   containers:
     - name: nginx-container
       image: nginx:1.21 # default pulls out of dockerhub
+      livenessProbe:
+        httpGet:
+          path: /smoe
+          port: 80
+        initialDelaySeconds: 5
+        periodSeconds: 5
+        failureThreshold: 5
+
