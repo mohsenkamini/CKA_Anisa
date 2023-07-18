@@ -368,6 +368,14 @@ run before the main container comes up.
 kubectl logs multi-alp-pod --follow --container init-alpine
 ~~~
 
+### Self-healing applpications
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/e91225a3-5852-4c23-9da7-c25a8925992e)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1d8f1ea1-643b-4781-a5c4-6889203718bf)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1b2c6376-1e09-494a-8638-3cafaa75d7e7)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/250bb1fa-aaf5-4f56-a817-ebae1766ff3d)
+
+
 ### statefulset
 
 ### job
