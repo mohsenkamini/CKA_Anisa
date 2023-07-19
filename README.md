@@ -406,7 +406,8 @@ K8s components versions are recommended to be managed according to the version o
 ~~~
 kubeadm upgrade plan
 apt-mark unhold kubelet kubeadm kubectl
-kubeadm upgrade apply
+apt install kubeadm=1.25.11-00 kubectl=1.25.11-00
+kubeadm upgrade apply v1.25.11
 ~~~
 
 
