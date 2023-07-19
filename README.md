@@ -403,6 +403,11 @@ kubectl uncordon <node>
 K8s components versions are recommended to be managed according to the version of kube-apiserver:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ed1d5672-b83a-4be4-a193-d3393b64ad6b)
 
+~~~
+kubeadm upgrade plan
+kubeadm upgrade apply
+~~~
+
 
 #### Backup & Restore
 
