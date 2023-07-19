@@ -408,6 +408,7 @@ kubeadm upgrade plan
 apt-mark unhold kubelet kubeadm kubectl
 apt install kubeadm=1.25.11-00 kubectl=1.25.11-00
 kubeadm upgrade apply v1.25.11
+apt install kubelet=1.25.11-00
 ~~~
 
 
