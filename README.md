@@ -403,12 +403,27 @@ kubectl uncordon <node>
 K8s components versions are recommended to be managed according to the version of kube-apiserver:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ed1d5672-b83a-4be4-a193-d3393b64ad6b)
 
+update a master:
 ~~~
 kubeadm upgrade plan
 apt-mark unhold kubelet kubeadm kubectl
+apt update
 apt install kubeadm=1.25.11-00 kubectl=1.25.11-00
 kubeadm upgrade apply v1.25.11
 apt install kubelet=1.25.11-00
+apt-mark hold kubelet kubeadm kubectl
+~~~
+
+update a worker:
+~~~
+kubectl drain <node> # run on master
+apt-mark unhold kubeadm kubectl kubelet
+apt update
+apt install kubeadm=1.25.11-00 kubectl=1.25.11-00
+kubeadm upgrade node
+apt install kubelet=1.25.11-00
+apt-mark hold kubelet kubeadm kubectl
+kubectl uncordon <node> # run on master
 ~~~
 
 
