@@ -426,8 +426,17 @@ apt-mark hold kubelet kubeadm kubectl
 kubectl uncordon <node> # run on master
 ~~~
 
-
 #### Backup & Restore
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/b92927da-11e7-4f67-8ba2-c67424db9b1f)
+
+push resources to a repo in git:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/d6647815-2016-47fd-be77-7a63688ddfe2)
+export everything:
+~~~
+kubectl get all --all-namespaces -o yaml > all-deployed-services.yml
+~~~
+
+
 
 ### statefulset
 
