@@ -444,7 +444,7 @@ we could also use [velero](https://velero.io/).
 
 kube-apiserver should be down (it is an static pod the yaml file should be moved).
 
-using etcdctl:
+using etcdutl:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/81db7687-efdf-4043-b2ec-2b9cb7568cd7)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/50595db4-fc96-4e78-bc58-d8df5d8b0b8a)
 
