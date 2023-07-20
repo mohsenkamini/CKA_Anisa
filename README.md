@@ -429,6 +429,7 @@ kubectl uncordon <node> # run on master
 #### Backup & Restore
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/b92927da-11e7-4f67-8ba2-c67424db9b1f)
 
+##### resources
 push resources to a repo in git:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/d6647815-2016-47fd-be77-7a63688ddfe2)
 export everything:
@@ -438,6 +439,12 @@ kubectl get deployments --all-namespaces -o yaml > all-deployed-services.yml
 ~~~
 we could also use [velero](https://velero.io/).
 
+##### ETCD 
+kube-apiserver should be down (it is an static pod the yaml file should be moved).
+
+using etcdctl:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/81db7687-efdf-4043-b2ec-2b9cb7568cd7)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/50595db4-fc96-4e78-bc58-d8df5d8b0b8a)
 
 
 ### statefulset
