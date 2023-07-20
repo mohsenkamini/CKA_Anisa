@@ -448,6 +448,19 @@ using etcdutl:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/81db7687-efdf-4043-b2ec-2b9cb7568cd7)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/50595db4-fc96-4e78-bc58-d8df5d8b0b8a)
 
+### Security
+
+#### Accounts
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/9827f901-b95f-452c-9049-37d3f5f1b31a)
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/d8a8c868-0baa-4017-a042-6439c0510080)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/6f3fbf2a-5201-406f-b767-4e573929462c)
+
+#### TLS
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/afbc5565-8bbc-4f8b-95f3-b8a330eb5bc4)
+admin privilage CN and Organization:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ffbab0aa-c4fb-4a92-b0b3-1cbdd57ccb75)
+
 
 ### statefulset
 
