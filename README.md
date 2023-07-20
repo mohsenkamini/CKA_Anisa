@@ -440,6 +440,8 @@ kubectl get deployments --all-namespaces -o yaml > all-deployed-services.yml
 we could also use [velero](https://velero.io/).
 
 ##### ETCD 
+[kuber doc](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster)
+
 kube-apiserver should be down (it is an static pod the yaml file should be moved).
 
 using etcdctl:
