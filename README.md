@@ -434,7 +434,9 @@ push resources to a repo in git:
 export everything:
 ~~~
 kubectl get all --all-namespaces -o yaml > all-deployed-services.yml
+kubectl get deployments --all-namespaces -o yaml > all-deployed-services.yml
 ~~~
+we could also use [velero](https://velero.io/).
 
 
 
