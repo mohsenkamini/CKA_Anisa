@@ -460,6 +460,8 @@ using etcdutl:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/afbc5565-8bbc-4f8b-95f3-b8a330eb5bc4)
 admin privilage CN and Organization:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/ffbab0aa-c4fb-4a92-b0b3-1cbdd57ccb75)
+kube-apiserver:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/11006856-d951-401b-b739-12623b5e8c0a)
 
 
 ### statefulset
