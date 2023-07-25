@@ -98,6 +98,7 @@ mkdir -p ~/.local/bin
 tar -C ~/.local/bin/ -xzf /tmp/nerdctl.tar.gz --strip-components 1 bin/nerdctl
 echo -e '\nexport PATH="${PATH}:~/.local/bin"' >> ~/.bashrc
 export PATH="${PATH}:~/.local/bin"
+nerdctl completion bash |  tee /etc/bash_completion.d/kubeadm > /dev/null
 nerdctl
 ~~~
 
