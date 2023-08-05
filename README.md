@@ -493,6 +493,9 @@ cat ./kubeConfig.yml
 kubernetes get pod --kubeconfig ./kubeConfig.yml
 ~~~
 
+switch between contexts using kubectx and kubens:
+https://github.com/ahmetb/kubectx
+
 ##### user authorization
 
 
