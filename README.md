@@ -533,6 +533,10 @@ Role:
 RoleBinding:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/a008a254-6c0a-4346-b5b7-8c166b2fd2a2)
 
+~~~
+kubectl apply -f developer
+kubectl apply -f developer-roleBinding.yml
+~~~
 
 ### statefulset
 
