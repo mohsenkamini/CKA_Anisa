@@ -484,6 +484,14 @@ echo "base64 coded" | base64 -d
 ## OR
 kubectl get csr anisa-csr -ojsonpath='{.status.certificate}' | base64 -d
 ~~~
+##### create a kubeconfig file
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/11327d2c-cc35-4b36-a00c-deea17ff2d18)
+~~~
+cd ~/CKA_Anisa/Certs/
+cat ./kubeConfig.yml
+kubernetes get pod --kubeconfig ./kubeConfig.yml
+~~~
 
 
 ### statefulset
