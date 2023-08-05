@@ -464,6 +464,27 @@ admin privilage CN and Organization:
 kube-apiserver:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/11006856-d951-401b-b739-12623b5e8c0a)
 
+#### Access 
+csr generation:
+~~~
+openssl genrsa -out anisa.key 2048
+openssl req -new -key anisa.key -out anisa.csr
+~~~
+A user delivers a CSR to admin and admin signs that with root CA. 
+~~~
+cd ~/CKA_Anisa/Certs
+cat anisa.csr | base64 -w 0 ## pass this as request field in csr.yml
+kubectl apply -f csr.yml
+kubectl get csr
+kubectl describe csr anisa-csr
+kubectl certificate -h
+kubectl certificate approve anisa-csr
+kubectl get csr anisa-csr -o yaml  # this gets you the certificate in base64
+echo "base64 coded" | base64 -d
+## OR
+kubectl get csr anisa-csr -ojsonpath='{.status.certificate}' | base64 -d
+~~~
+
 
 ### statefulset
 
