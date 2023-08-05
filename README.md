@@ -491,12 +491,17 @@ kubectl get csr anisa-csr -ojsonpath='{.status.certificate}' | base64 -d
 cd ~/CKA_Anisa/Certs/
 cat ./kubeConfig.yml
 kubernetes get pod --kubeconfig ./kubeConfig.yml
+curl -k  https://172.16.0.10:6443/api --key anisa.key --cert anisa.crt
+curl -k  https://172.16.0.10:6443/apis --key anisa.key --cert anisa.crt
 ~~~
 
 switch between contexts using kubectx and kubens:
 https://github.com/ahmetb/kubectx
 
-##### user authorization
+##### user authorization 
+
+### API Groups
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/a05e93fa-1df2-438d-964e-a6937a565610)
 
 
 
