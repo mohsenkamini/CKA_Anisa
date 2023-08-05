@@ -493,6 +493,9 @@ cat ./kubeConfig.yml
 kubernetes get pod --kubeconfig ./kubeConfig.yml
 ~~~
 
+##### user authorization
+
+
 
 ### statefulset
 
