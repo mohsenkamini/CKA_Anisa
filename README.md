@@ -493,6 +493,7 @@ cat ./kubeConfig.yml
 kubernetes get pod --kubeconfig ./kubeConfig.yml
 curl -k  https://172.16.0.10:6443/api --key anisa.key --cert anisa.crt
 curl -k  https://172.16.0.10:6443/apis --key anisa.key --cert anisa.crt
+curl -k  https://172.16.0.10:6443/api/v1/pods --key anisa.key --cert anisa.crt
 ~~~
 
 switch between contexts using kubectx and kubens:
