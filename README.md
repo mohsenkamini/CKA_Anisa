@@ -541,6 +541,11 @@ check authorizations:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/3e25350e-82ef-4be8-a185-03e1538102cc)
 
 
+### Cluster Roles
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/3d4b6cf4-6735-4d99-90fa-172b538b1526)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/127cd792-c5c5-4771-a6ea-10303116e926)
+
+
 ### statefulset
 
 ### job
