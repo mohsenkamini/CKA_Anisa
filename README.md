@@ -503,6 +503,14 @@ https://github.com/ahmetb/kubectx
 ### API Groups
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/a05e93fa-1df2-438d-964e-a6937a565610)
 
+core API:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/0c704ce4-b4f5-4309-9e88-cb5c85fbccca)
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/8eb10054-35d8-4407-97f8-a569bd1f0cb1)
+
+### kubectl proxy
+using this you won't need to specify --key and certs for `curl` and if you curl the proxy it has the kubectl access.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2a0bdbbe-d07f-4a88-ad58-9fb00e23aebb)
 
 
 ### statefulset
