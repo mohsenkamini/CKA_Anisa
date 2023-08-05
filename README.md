@@ -527,6 +527,13 @@ ABAC:
 RBACK:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/9d50a2b4-cc68-4ce5-9612-e0f6d41b6e3c)
 
+Role:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/81915758-99f3-4d21-a2d4-de22fab0bf01)
+
+RoleBinding:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/a008a254-6c0a-4346-b5b7-8c166b2fd2a2)
+
+
 ### statefulset
 
 ### job
