@@ -521,6 +521,11 @@ node authorization:
 OU: system:node
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2e53f538-aea7-4d41-af71-6ffb4ac70203)
 
+ABAC:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/3a157e3e-8ee4-4460-a8fd-d35f493fb45d)
+
+RBACK:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/9d50a2b4-cc68-4ce5-9612-e0f6d41b6e3c)
 
 ### statefulset
 
