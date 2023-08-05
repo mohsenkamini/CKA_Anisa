@@ -537,6 +537,9 @@ RoleBinding:
 kubectl apply -f developer
 kubectl apply -f developer-roleBinding.yml
 ~~~
+check authorizations:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/3e25350e-82ef-4be8-a185-03e1538102cc)
+
 
 ### statefulset
 
