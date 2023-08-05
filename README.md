@@ -13,6 +13,7 @@ to initiate a cluster check out [this repo](https://github.com/mohsenkamini/Gett
 1. interacts with the container runtime to deploy containers on the node.
 2. reports status of the node and the containers on that node to the API server.
 3. register nodes on the cluster
+4. healthcheck (probs)
 
 ~~~
 systemctl restart kubelet
@@ -499,8 +500,6 @@ curl -k  https://172.16.0.10:6443/api/v1/pods --key anisa.key --cert anisa.crt
 switch between contexts using kubectx and kubens:
 https://github.com/ahmetb/kubectx
 
-##### user authorization 
-
 ### API Groups
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/a05e93fa-1df2-438d-964e-a6937a565610)
 
@@ -512,6 +511,15 @@ core API:
 ### kubectl proxy
 using this you won't need to specify --key and certs for `curl` and if you curl the proxy it has the kubectl access.
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2a0bdbbe-d07f-4a88-ad58-9fb00e23aebb)
+
+### user authorization 
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/5d501f5d-cb9a-4842-b85c-b3da68b5264e)
+
+node authorization:
+
+OU: system:node
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2e53f538-aea7-4d41-af71-6ffb4ac70203)
 
 
 ### statefulset
