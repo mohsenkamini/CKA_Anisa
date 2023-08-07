@@ -577,8 +577,18 @@ set a policy that a pod can only receive ingress/ send egress traffic to a speci
 connect to ceph, glusterfs, etc
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f2aa4328-958c-4dc9-9b45-7f349333b718)
 
-### Persistent Volumes
+### Volumes and mounts
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/45dfff0f-1c9a-4b74-b6bb-b454718bb8fc)
+
+### Persistent Volumes (PVs) and Persistent Volume claims
+The kubernetes object for a volume is a PV. Then we use a PVC to request a PV.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/436af4df-edc6-46ad-879f-fb41d6f945a5)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/2d96e699-7bf6-44a9-b305-a2d797ccac4f)
+many means it can be assigned to multiple nodes. once means only one node.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/318db971-2ed5-4735-8f37-2da8f97c4c7a)
+
+persistenVolumeReclaimPolicy:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/8ca447dc-a809-4195-8214-987561408c62)
 
 
 
