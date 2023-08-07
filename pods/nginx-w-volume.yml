@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:   # name of the pod, namespace, labels etc
+  name: nginx-w-volumes
+  labels:
+    app: myapp
+    type: front-end
+
+spec:
+  volumes:
+    - name: data-volume
+      hostPath:
+        path: /var/local/aaa
+        type: DirectoryOrCreate
+  containers:
+    - name: nginx-container
+      image: nginx:1.21 # default pulls out of dockerhub
+      volumeMounts:
+              # name of the volume above
+        - name: data-volume     
+          mountPath: /mydir
