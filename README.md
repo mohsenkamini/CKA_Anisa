@@ -590,6 +590,8 @@ many means it can be assigned to multiple nodes. once means only one node.
 persistenVolumeReclaimPolicy:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/8ca447dc-a809-4195-8214-987561408c62)
 
+binding: 
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/706a8108-a6c7-47b8-9f55-a452ac399e76)
 
 
 ### statefulset
