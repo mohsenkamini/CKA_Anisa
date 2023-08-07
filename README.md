@@ -545,6 +545,24 @@ check authorizations:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/3d4b6cf4-6735-4d99-90fa-172b538b1526)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/127cd792-c5c5-4771-a6ea-10303116e926)
 
+### Image repository
+The default registry is docker.io(dockerhub).
+
+`nerdctl login ` equals `docker login`.
+
+The better solution is to use secrets:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/af6157d6-306f-4209-8e06-c5201fb52ea2)
+
+if the registry's certificate is self-signed:
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/5a66e2d6-7358-4a5c-affa-d82f5c762e1f)
+
+
+### Security Contexts
+Capabilities and run as user: 
+(add/drop)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f7df2d64-8af9-432c-bd26-84e0eceef754)
+
+
 
 ### statefulset
 
