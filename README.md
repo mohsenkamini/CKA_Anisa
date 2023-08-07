@@ -562,6 +562,24 @@ Capabilities and run as user:
 (add/drop)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f7df2d64-8af9-432c-bd26-84e0eceef754)
 
+### Network Policy
+
+- ingress: input traffic to pods
+- egress: output traffic to pods
+
+set a policy that a pod can only receive ingress/ send egress traffic to a specific policy.
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/740c41ac-83fd-43ed-b9cc-942342d48491)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/10e5aa96-d68f-476d-8399-792ee19077a4)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/09d14920-aaac-467a-91df-79ca88254bc1)
+
+### Container Storage Interface (CSI)
+connect to ceph, glusterfs, etc
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/f2aa4328-958c-4dc9-9b45-7f349333b718)
+
+### Persistent Volumes
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/45dfff0f-1c9a-4b74-b6bb-b454718bb8fc)
+
 
 
 ### statefulset
