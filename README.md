@@ -531,7 +531,12 @@ ABAC:
 RBACK:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/9d50a2b4-cc68-4ce5-9612-e0f6d41b6e3c)
 
-Role:
+Roles:
+
+Get a list of resources:
+~~~
+kubectl api-resources
+~~~
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/81915758-99f3-4d21-a2d4-de22fab0bf01)
 
 RoleBinding:
@@ -546,10 +551,6 @@ check authorizations:
 
 
 ### Cluster Roles
-Get a list of resources:
-~~~
-kubectl api-resources
-~~~
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/3d4b6cf4-6735-4d99-90fa-172b538b1526)
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/127cd792-c5c5-4771-a6ea-10303116e926)
 
