@@ -465,6 +465,10 @@ admin privilage CN and Organization:
 kube-apiserver:
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/11006856-d951-401b-b739-12623b5e8c0a)
 
+##### Check certificate expiration 
+~~~
+kubeadm certs check-expiration
+~~~
 #### Access 
 csr generation:
 ~~~
