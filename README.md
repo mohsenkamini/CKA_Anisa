@@ -504,6 +504,12 @@ curl -k  https://172.16.0.10:6443/api/v1/pods --key anisa.key --cert anisa.crt
 switch between contexts using kubectx and kubens:
 https://github.com/ahmetb/kubectx
 
+~~~
+sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kctx
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kns
+~~~
+
 ### API Groups
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/a05e93fa-1df2-438d-964e-a6937a565610)
 
