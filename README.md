@@ -608,6 +608,11 @@ persistenVolumeReclaimPolicy:
 binding: 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/706a8108-a6c7-47b8-9f55-a452ac399e76)
 
+## Networking
+### Cluster
+cni config files: `/etc/cni/net.d/`
+
+
 
 ### statefulset
 
