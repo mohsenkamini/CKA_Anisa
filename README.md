@@ -617,7 +617,11 @@ When a service is created with an advertising IP and port, `kube-proxy` creates 
 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/75b177cd-2659-4567-87cc-f30b2ef29668)
 
-![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1d98b25d-b1db-4d7e-8827-70cf02c90f5e)
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/960a98dc-e1d2-41d2-b6f6-50f3d2265e78)
+
+Interesting thing is that iptables has a feature to set probability of acceptance of a rule. this K8s loadbalances between pods:
+
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/45529151-5e91-4860-b2f3-06d6325d4311)
 
 ### IPVS
 `kube-proxy`'s mode can be set to iptables to IPVS.
