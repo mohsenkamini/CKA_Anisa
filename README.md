@@ -618,6 +618,7 @@ When a service is created with an advertising IP and port, `kube-proxy` creates 
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/1d98b25d-b1db-4d7e-8827-70cf02c90f5e)
 
 ### IPVS
+`kube-proxy`'s mode can be set to iptables to IPVS
 Recommended to not use iptables if you have over 1000 services.
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/14fec6f8-b8f0-4b92-b244-96ddbb16c1de)
 https://www.tigera.io/blog/comparing-kube-proxy-modes-iptables-or-ipvs/#:~:text=The%20difference%20in%20CPU%20usage,~8%25%20of%20a%20core
