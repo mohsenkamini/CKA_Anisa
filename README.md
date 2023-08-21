@@ -612,6 +612,10 @@ binding:
 ### Cluster
 cni config files: `/etc/cni/net.d/`
 
+### Service
+When a service is created with an advertising IP and port, `kube-proxy` creates firewall rules to forward the requests to that endpoint to the corresponding pod of that service. Then, through routing the host knows where to send this request based on the routes that the `cni` has advertised.
+![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/75b177cd-2659-4567-87cc-f30b2ef29668)
+
 
 
 ### statefulset
