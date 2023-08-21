@@ -631,6 +631,21 @@ Recommended to not use iptables if you have over 1000 services.
 ![image](https://github.com/mohsenkamini/CKA_Anisa/assets/77579794/14fec6f8-b8f0-4b92-b244-96ddbb16c1de)
 https://www.tigera.io/blog/comparing-kube-proxy-modes-iptables-or-ipvs/#:~:text=The%20difference%20in%20CPU%20usage,~8%25%20of%20a%20core
 
+
+### coredns
+https://coredns.io/2017/05/08/custom-dns-entries-for-kubernetes/
+~~~
+kubectl get svc -n kube-system 
+NAME             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)                  AGE
+kube-dns         ClusterIP   10.96.0.10       <none>        53/UDP,53/TCP,9153/TCP   93d
+metrics-server   ClusterIP   10.106.101.124   <none>        443/TCP                  70d
+
+kubectl exec -it myapp-deployment-6fdd5f58cd-9l6lx -- cat /etc/resolv.conf
+search dev.svc.cluster.local svc.cluster.local cluster.local
+nameserver 10.96.0.10
+options ndots:5
+~~~
+
 ### statefulset
 
 ### job
