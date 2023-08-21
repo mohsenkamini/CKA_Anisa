@@ -18,7 +18,7 @@ to initiate a cluster check out [this repo](https://github.com/mohsenkamini/Gett
 ~~~
 systemctl restart kubelet
 ~~~
-
+config file: `/var/lib/kubelet/config.yaml`
 - **Controller manager:**
 
 1. monitors the nodes and containers
