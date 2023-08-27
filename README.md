@@ -646,6 +646,9 @@ nameserver 10.96.0.10
 options ndots:5
 ~~~
 
+### Service Account
+Just like RBAC but for non-human resources either within or outside of the cluster. for example if a pod wants to access `secrets` defined in the cluster or list pods in another namespace, part of a CICD pipe, etc.
+
 ### statefulset
 
 ### job
